@@ -148,15 +148,15 @@
             <div id="top"></div>
 
             <section id="subheader" class="relative jarallax text-light">
-                <img src="images/background/3.webp" class="jarallax-img" alt="">
+                <img src="images/background/1.png" class="jarallax-img" alt="">
                 <div class="container relative z-index-1000">
                     <div class="row justify-content-center">
                         <div class="col-lg-6 text-center">
-                            <h1>Reservation</h1>
-                            <p class="mt-3 lead">Ready to elevate your travel experience? Reserve your room now and step into a world of comfort and luxury. Your perfect stay is just a click away.</p>
+                            <h1>Reserva</h1>
+                            <p class="mt-3 lead">Pronto para elevar sua experiência de viagem? Reserve sua acomodação agora e mergulhe em um mundo de conforto e luxo. Seu momento perfeito está apenas a um clique de distância.</p>
                             <ul class="crumb">
                                 <li><a href="index.html">Home</a></li>
-                                <li class="active">Reservation</li>
+                                <li class="active">Reserva</li>
                             </ul>
                         </div>
                     </div>
@@ -169,9 +169,9 @@
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3">
                             <div id="success_message" class="text-center">
-                                <h2>Your reservation has been sent successfully.</h2>
+                                <h2>Sua reserva foi enviada com sucesso.</h2>
                                 <div class="col-lg-8 offset-lg-2">
-                                    <p>We will contact you shortly. Refresh this page if you want to make another reservation.</p>
+                                    <p>Entraremos em contato com você em breve. Atualize esta página se quiser fazer outra reserva.</p>
 
                                     <img src="images/misc/2.webp" class="w-100 rounded-up-100" alt="">
                                 </div>
@@ -182,14 +182,14 @@
                                     <div class="row">
 
                                         <div class="col-md-12">
-                                            <h4>Choose Date</h4>                                        
+                                            <h4>Escolha a data</h4>                                        
                                             <input type="text" id="date-picker" class="form-control mb-4" name="date" value="">
 
                                             <div class="guests-n-rooms mb-4">
                                                 <div class="row g-4">
                                                     <div class="col-md-4">
                                                         <div class="text-center border-1 pt-2">
-                                                            <h4>Adult</h4>
+                                                            <h4>Adulto</h4>
                                                             <div class="de-number">
                                                                 <span class="d-minus">-</span>
                                                                 <input type="text" class="no-border no-bg" value="1" name="adult">
@@ -199,7 +199,7 @@
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="text-center border-1 pt-2">
-                                                            <h4>Children</h4>
+                                                            <h4>Criança</h4>
                                                             <div class="de-number">
                                                                 <span class="d-minus">-</span>
                                                                 <input type="text" class="no-border no-bg" value="0" name="children">
@@ -209,7 +209,7 @@
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="text-center border-1 pt-2">
-                                                            <h4>Room</h4>
+                                                            <h4>Acomodação</h4>
                                                             <div id="d-room-count" class="de-number">
                                                                 <span class="d-minus">-</span>
                                                                 <input id="room-count" type="text" class="no-border no-bg" value="1" name="room_count">
@@ -223,61 +223,52 @@
                                     </div>
 
                                     <div class="select-room">
-                                        <h4>Select Room</h4>
+                                        <h4>Escolha a acomodação</h4>
 
                                         <select class="room-type form-control" name="room_type">
-                                          <option value='Standart Room' data-src="images/form/1.jpg">
-                                            Standart Room | $119/night | 2 Guests
+                                          <option value='Standart Room' data-src="images/casa1.png">
+                                            Casa | R$100/noite | 10 Pessoas
                                           </option>
-                                          <option value='Deluxe Room' data-src="images/form/2.jpg">
-                                            Deluxe Room | $129/night | 2 Guests
+                                          <option value='Deluxe Room' data-src="images/casa2.png">
+                                            Chalé | R$100/noite | 4 Pessoas
                                           </option>
-                                          <option value='Premier Room' data-src="images/form/3.jpg">
-                                            Premier Room | $139/night | 2 Guests
-                                          </option>
-                                          <option value='Family Suite' data-src="images/form/4.jpg">
-                                            Family Suite | $149/night | 4 Guests
-                                          </option>
-                                          <option value='Luxury Suite' data-src="images/form/5.jpg">
-                                            Luxury Suite | $179/night | 2 Guests
-                                          </option>
-                                          <option value='Presidential Suite' data-src="images/form/6.jpg">
-                                            Presidential Suite | $199/night | 2 Guests
+                                          <option value='Premier Room' data-src="images/casa3.png">
+                                            Suíte | R$100/noite | 2 Pessoas
                                           </option>
                                         </select>
                                     </div>
 
                                     <div id="step-2" class="row g-4">
-                                        <h4>Enter your details</h4>
+                                        <h4>Preencha os dados</h4>
 
                                         <div class="col-md-6">
-                                            <div id='name_error' class='error'>Please enter your name.</div>
+                                            <div id='name_error' class='error'>Por favor, insira seu nome.</div>
                                             <div>
-                                                <input type='text' name='name' id='name' class="form-control" placeholder="Your Name" required>
+                                                <input type='text' name='name' id='name' class="form-control" placeholder="Seu nome" required>
                                             </div>
 
-                                            <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
+                                            <div id='email_error' class='error'>Por favor, insira seu e-mail válido.</div>
                                             <div>
-                                                <input type='email' name='email' id='email' class="form-control" placeholder="Your Email" required>
+                                                <input type='email' name='email' id='email' class="form-control" placeholder="Seu e-mail" required>
                                             </div>
 
-                                            <div id='phone_error' class='error'>Please enter your phone number.</div>
+                                            <div id='phone_error' class='error'>Por favor, insira seu número de telefone.</div>
                                             <div>
-                                                <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone" required>
+                                                <input type='text' name='phone' id='phone' class="form-control" placeholder="Seu telefone" required>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <textarea name='message' id='message' class="form-control" placeholder="Your Message"></textarea>
+                                            <textarea name='message' id='message' class="form-control" placeholder="Sua mensagem"></textarea>
                                         </div>
 
                                         <div class="col-md-12">
                                             <p id='submit'>
-                                                <input type='submit' id='send_message' value='Submit Form' class="btn-main">
+                                                <input type='submit' id='send_message' value='Enviar mensagem' class="btn-main">
                                             </p>
                                         </div>
                                     </div>
                                 </form>
-                                <div id='error_message' class='error'>Sorry, error occured this time sending your message.</div>
+                                <div id='error_message' class='error'>Desculpe, houve um erro ao enviar seu formulário.</div>
                             </div>
                         </div>
                     </div>
