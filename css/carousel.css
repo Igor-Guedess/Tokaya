@@ -84,3 +84,32 @@
     padding: 30px !important; /* Aumenta o padding interno da barra branca */
 }
 
+.subfooter {
+    background: none !important;
+    padding-top: 20px !important;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 40px;
+}
+
+/* Centralização do footer */
+footer .d-lg-flex {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 30px;
+}
+
+footer .d-lg-flex > div {
+    flex: 1;
+}
+
+.hover .btn-line {
+    border: 2px solid #ffffff; /* Cor padrão da borda */
+    transition: all 0.3s ease;
+}
+
+.hover .btn-line:hover {
+    border: 2px solid #ffffff; /* Mantém a borda branca sólida */
+    background: rgba(255,255,255,0.2); /* Fundo semi-transparente no hover */
+}
